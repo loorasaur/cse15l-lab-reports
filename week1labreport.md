@@ -7,6 +7,8 @@ I will be explaining the usage of `cd` , `ls` , and `cat` through examples.
 < 1. *Examples using the command with* **no** *arguments* >
 
   a) `cd`
+  
+![Image](ex1lab1.png)
 
 The current working directory is the **home** directory.  The `cd` command changes the directory of the terminal, and there is no output because I did not specify a file to change the directory to, therefore the terminal remains in the **home** directory. 
 
