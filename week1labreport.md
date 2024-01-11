@@ -1,9 +1,11 @@
 # week-1-lab-report
 
-**Commands**
+[**Commands**]
+
 I will be explaining the usage of `cd` , `ls` , and `cat` through examples. 
 
-1) *w/o arguments* 
+< 1. *Examples using the command with* **no** *arguments* >
+
   a) `cd`
 
 The current working directory is the **home** directory.  The `cd` command changes the directory of the terminal, and there is no output because I did not specify a file to change the directory to, therefore the terminal remains in the **home** directory. 
@@ -17,7 +19,8 @@ The current working directory is the **home** directory. In here, the `ls` comma
 The current working directory is the **home** directory. Since there is no argument, the terminal is empty and concatenates the String I input into the output–as a result, the inputted String is repeated in the output. 
 
 
-2) *a path to a directory as an argument*
+< 2. *Examples using the command with a path to a* **directory** *as an argument* >
+
   a) `cd`
 
 The current working directory is the **lecture1** directory. The `cd` function changed from the home directory to the **lecture1** directory, which can also be seen when we command `pwd` to showcase the current working directory. 
@@ -30,7 +33,8 @@ The current working directory is the **lecture1** directory. The `ls` function p
 
 The current working directory is the **home** directory. This produces an error because the contents of the directories, **lecture1** and **ex.folder**, cannot be concatenated, hence the output only demonstrates that the given paths are directories and nothing regarding its contents. 
 
-3) *a path to a file as an argument* 
+< 3. *Examples using the command with a path to a* **file** *as an argument* >
+
   a) `cd`
 
 The current working directory is the **messages** directory. The `cd` function only works for directories, therefore using the command with a path to a file as an argument creates an error since *en-us.txt* is a file, not a directory. 
