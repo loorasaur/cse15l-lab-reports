@@ -33,11 +33,11 @@ The current working directory is the **home** directory. This produces an error 
 3) *a path to a file as an argument* 
   a) `cd`
 
-The current working directory is the **messages** directory. The cd function only works for directories, therefore using the command with a path to a file as an argument creates an error since *en-us.txt* is a file, not a directory. 
+The current working directory is the **messages** directory. The `cd` function only works for directories, therefore using the command with a path to a file as an argument creates an error since *en-us.txt* is a file, not a directory. 
 
   b) `ls`
 
-The current working directory is the **messages** directory. The ls function intends to provide a list of the files/folders in a given path, but since *en-us.txt* is already a file, the output reiterates the name of the file. 
+The current working directory is the **messages** directory. The `ls` function intends to provide a list of the files/folders in a given path, but since *en-us.txt* is already a file, the output reiterates the name of the file. 
 
   c) `cat`
-The current working directory is the **messages** directory. The cat function combines the contents of the two files, *en-us.txt* and *fr.txt*, and prints the contents of both files in the output, “Hello World!” and “Bonjour le monde!”. 
+The current working directory is the **messages** directory. The `cat` function combines the contents of the two files, *en-us.txt* and *fr.txt*, and prints the contents of both files in the output, *“Hello World!”* and *“Bonjour le monde!”*. 
