@@ -80,7 +80,7 @@ Image of Dictories and Code:
 **Screenshot 1: Add Message #1** 
 ![Image](cse15llabrep2ss1.png)
 1) Which methods in your code are called: 
-  `public String handleRequest(URI url)` was called
+  `public String handleRequest(URI url)` and `private String addMessage(URI url)` was called
 2) What are the relevant arguments to those methods, and the values of any relevant fields of the class:
   The relevant argument followed the input `/add-message?s=<String>&user=<String>`. This allows the user to input a message as indicated by `s=` under a specified name through `user=`. In this case, `s=iamabeautifulpineapple` creates a messages of `iamabeautifulpineapple`, and `user=pineapple` creates the user `pineapple`.
 3) How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why:
@@ -89,7 +89,7 @@ Image of Dictories and Code:
 **Screenshot 2: Add Message #2**
 ![Image](cse15llabrep2s2.png)
 1) Which methods in your code are called:
-    `public String handleRequest(URI url)` was called
+    `public String handleRequest(URI url)` and `private String addMessage(URI url)` was called
 3) What are the relevant arguments to those methods, and the values of any relevant fields of the class:
   The relevant argument followed the input `/add-message?s=<String>&user=<String>`. This allows the user to input a message as indicated by `s=` under a specified name through `user=`. In this case, `s=pepperoniismorebeautifulthanpineapple` creates a messages of `pepperoniismorebeautifulthanpineapple`, and `user=pepperoni` creates the user `pepperoni`.
 5) How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
