@@ -97,6 +97,9 @@ Image of Dictories and Code:
 
 # part-2
 1) The absolute path to the private key for your SSH key for logging into ieng6 (on your computer, an EdStem workspace, or on the home directory of the lab computer)
+
+`/home/.ssh/id_ed25519.pub`
+
 ![Image](publickey.png)
 
 2) The absolute path to the public key for your SSH key for logging into ieng6 (this is the one you copied to your account on ieng6, so it should be a path on ieng6's file system)
