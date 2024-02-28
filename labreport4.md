@@ -3,7 +3,7 @@ By Laura Ho
 
 1. Log into ieng6
 
-For this, I typed `ssh l6ho@ieng6.ucsd.edu` into the terminal. I could also do this same step by searching through the terminal history using `<up> <Enter>` until I found the same line, since I would have previously used this command during the setup. 
+For this, I used the command `ssh l6ho@ieng6.ucsd.edu` into the terminal. I searched through the terminal history using `<up> <Enter>` until I found the same line, since I would have previously used this command during the setup. 
 
 > ![Image](step1.png)
 
@@ -47,7 +47,7 @@ In this second screenshot, I have modified `index1` to `index2`.
 
 5. Run the tests, demonstrating that they now succeed
 
-I type this command into the terminal: `bash test.sh`. This can also be achieved by searching through the terminal history for the same command `<up> <up> <Enter>`. All the tests are shown to have passed. 
+I used this command in the terminal: `bash test.sh`. This can be achieved by searching through the terminal history for the same command `<up> <up> <up> <Enter>`. All the tests are shown to have passed. 
 
 > ![Image](step5.png)
 
