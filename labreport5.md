@@ -103,6 +103,7 @@ I have a `meemaw` folder that contains my `evenNum.java` file that has my main c
 
 Before fixing the bug: 
 1. `evenNum.java`
+
 ```
 public class evenNum {
     // initialize even number counter
@@ -128,6 +129,7 @@ public class evenNum {
 ```
 
 2. `evenNumTests.java`
+
 ```
 import static org.junit.Assert.*;
 import org.junit.*;
@@ -148,19 +150,21 @@ public class evenNumTests {
         int result2 = evenNum.evenNumStore(numberList1);
         assertEquals(0, result2, 0.0001);
     }
-
 }
 ```
 
 3. `test.sh`
+
 ```
 javac -g -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore evenNumTests
 ```
 
+
 ## part-1.4: The full command line (or lines) you ran to trigger the bug
 
 In the terminal, I ran `bash test.sh`. I have attached the code for this above. 
+
 
 ## part-1.5: A description of what to edit to fix the bug
 
