@@ -102,7 +102,7 @@ I have a `meemaw` folder that contains my `evenNum.java` file that has my main c
 ## part-1.3: The contents of each file before fixing the bug
 
 Before fixing the bug: 
-1. `evenNum.java`
+1) `evenNum.java`
 
 ```
 public class evenNum {
@@ -128,7 +128,7 @@ public class evenNum {
 }
 ```
 
-2. `evenNumTests.java`
+2) `evenNumTests.java`
 
 ```
 import static org.junit.Assert.*;
@@ -153,7 +153,7 @@ public class evenNumTests {
 }
 ```
 
-3. `test.sh`
+3) `test.sh`
 
 ```
 javac -g -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
