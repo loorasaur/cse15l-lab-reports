@@ -157,10 +157,10 @@ javac -g -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore evenNumTests
 ```
 
-# part-1.3: The full command line (or lines) you ran to trigger the bug
+# part-1.4: The full command line (or lines) you ran to trigger the bug
 In the terminal, I ran `bash test.sh`. I have attached the code for this above. 
 
-# part-1.4: A description of what to edit to fix the bug
+# part-1.5: A description of what to edit to fix the bug
 The original code was redeclaring the `evenCount` variable inside of the `evenNumStore` method, and therefore overshadows the class-level `evenCount` variable. As a result, when `evenCount` was returned at the end of the method, it actually returns the local variable `evenCount` declared inside the method, as opposed to the class-level `evenCount` variable. This is why I removed the redeclaration of the `evenCount` variable.
 
 ```
