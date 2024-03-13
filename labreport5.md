@@ -96,7 +96,7 @@ public class evenNumTests {
 
 ![Image](lab5ss3.png)
 
-I have a `meemaw` folder that contains my `evenNum.java` file that has my main code for counting the number of even numbers and a `evenNum.class` file from compiling. I also have my tester file named `evenNumTests.java` file that runs two tests to see if my code works properly, and the evenNumTests.class file from compiling that. Additionally, I have a bash file named test.sh that contains commands to compile and run my test file. Since I am using JUnit in my test file, I also have a lib folder that contains hamcrest and JUnit files. 
+I have a `meemaw` folder that contains my `evenNum.java` file that has my main code for counting the number of even numbers and a `evenNum.class` file from compiling. I also have my tester file named `evenNumTests.java` file that runs two tests to see if my code works properly, and the `evenNumTests.class` file from compiling that. Additionally, I have a bash file named `test.sh` that contains commands to compile and run my test file. Since I am using JUnit in my test file, I also have a `lib` folder that contains `hamcrest` and `JUnit` files. 
 
 
 # part-1.3: The contents of each file before fixing the bug
